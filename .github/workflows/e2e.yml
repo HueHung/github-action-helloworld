@@ -12,7 +12,10 @@ jobs:
     env:
       Greeting: Hello
     steps:
-      - name: "Say Hello Mona it's Monday"
+      - name: "Say Hello Hung it's Monday"
         run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
         env:
           First_Name: Hung
+
+      - name: Xuất giá trị context
+        run: echo ${{ github }}
