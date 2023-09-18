@@ -18,4 +18,4 @@ jobs:
           First_Name: Hung
 
       - name: Xuất giá trị context
-        run: echo ${{ github }}
+        run: echo ${{ github.action }}
