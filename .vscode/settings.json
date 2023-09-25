@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2ec74c35-41fa-42b7-a8dc-aab3e5af7861/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/azure-nodejs-helloworld",
+    "appService.deploySubpath": "."
+}
