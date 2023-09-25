@@ -52,6 +52,6 @@ jobs:
               uses: azure/webapps-deploy@v2
               with:
                   app-name: "azure-nodejs-helloworld"
-                  slot-name: "Deployment"
+                  slot-name: "Production"
                   publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_464F528E8D0C48CE8E3C5C4212384258 }}
                   package: .
