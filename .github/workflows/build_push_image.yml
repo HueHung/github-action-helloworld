@@ -1,9 +1,10 @@
-name: node_app_helloworld
+name: build & push docker image workflow
 
 on: # specify the build to trigger the automated ci/cd
     push:
         branches:
             - "main"
+    workflow_dispatch:
 
 jobs:
     build:
