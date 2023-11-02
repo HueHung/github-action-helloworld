@@ -4,12 +4,13 @@ on: # specify the build to trigger the automated ci/cd
     push:
         branches:
             - "main"
+            
     workflow_dispatch:
 
 jobs:
     build:
         name: Build Docker image
-        runs-on: ubuntu-latest # specify the build machine
+        runs-on: self-hosted # specify the build machine
         steps:
             - # checkout to the repository on the build machine
                 name: Checkout
