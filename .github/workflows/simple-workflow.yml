@@ -7,7 +7,7 @@ env:
 
 jobs:
     greeting_job:
-        runs-on: alpine-latest
+        runs-on: self-hosted
         
         env:
             Greeting: Hello
